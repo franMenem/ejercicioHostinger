@@ -3,6 +3,7 @@
 
 :root {
   /* Colors */
+  
   --color-principal-400: #f3f4fe;
   --color-principal-500: #673de5;
   --color-principal-600: #2f1c6a;
@@ -13,6 +14,7 @@
   --color-success: #00b090;
   --color-gray-100: #d5dfff;
   /*breakpoints*/
+
   --breakpoint-sm: 480px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 1024px;
@@ -133,7 +135,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 36px 0 96px; /* padding top, horizontal y bottom */
+  padding: 36px 0 96px; 
   width: 100%;
 }
 .hero__container{
@@ -188,13 +190,13 @@ header {
   display: flex;
   flex-direction: column;
   padding-left: 0;
-  gap: 12px; /* Añade espacio entre ítems si hace falta */
-  margin-bottom: 24px; /* opcional para separar de lo siguiente */
+  gap: 12px; 
+  margin-bottom: 24px; 
 }
 
 .hero__features-item {
   display: flex;
-  align-items: center; /* mejor para íconos + texto alineados visualmente */
+  align-items: center; 
   gap: 10px;
 }
 .hero__features-check {
@@ -519,6 +521,8 @@ header {
   justify-content: space-between;
   width: 100%;
 }
+
+
 /*####################################################################################################*/
 /* media queries */
 
